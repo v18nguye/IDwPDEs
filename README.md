@@ -113,6 +113,7 @@ Project Link: [https://github.com/v18nguye/IDwPDEs](https://github.com/v18nguye/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Cool README Template](https://github.com/othneildrew/Best-README-Template)
+* [Latex Rendering](https://github.com/leegao/readme2tex)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/v18nguye/IDwPDEs.svg?style=for-the-badge
