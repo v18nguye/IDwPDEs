@@ -8,7 +8,7 @@ import copy
 import scipy as sc
 
 
-def _he(u, N, alpha, lambda_):
+def _he(u, N=100, alpha=1, lambda_=0.05):
     """ Heat equation diffusion
 
     :param lambda_: float

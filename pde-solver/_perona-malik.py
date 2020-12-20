@@ -28,7 +28,7 @@ def _div(v, K, esf):
     return np.gradient(factor*grad_x)[0] + np.gradient(factor*grad_y)[1]
 
 
-def _pm(u, N, lambda_, K=0.2, esf='c3'):
+def _pm(u, N=50, lambda_=0.07, K=0.2, esf='c1'):
     """
 
     :param u: ndarray
