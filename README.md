@@ -8,13 +8,13 @@ approaches dealing with Inverse Problem, resumed in the figure below.
 __Author: Khoa NGUYEN__
 
 ## Background
-In theory, we are looking for a solution <img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/9a816d3409cff0a970fc73cfd9ea3e75.svg?invert_in_darkmode" align=middle width=9.41027339999999pt height=22.831056599999986pt/> by minimizing the following cost:
+In theory, we are looking for a solution <img src="svgs/9a816d3409cff0a970fc73cfd9ea3e75.svg?invert_in_darkmode" align=middle width=9.41027339999999pt height=22.831056599999986pt/> by minimizing the following cost:
 
-<img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/2101f41ba7f16ddcc28beb79496af43b.svg?invert_in_darkmode" align=middle width=165.32312444999997pt height=24.65753399999998pt/>
+<img src="svgs/2101f41ba7f16ddcc28beb79496af43b.svg?invert_in_darkmode" align=middle width=165.32312444999997pt height=24.65753399999998pt/>
 
-with <img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/86f67b02b0fa6adbc14c3ec7e5a136b5.svg?invert_in_darkmode" align=middle width=215.14490909999998pt height=24.65753399999998pt/>
+with <img src="svgs/86f67b02b0fa6adbc14c3ec7e5a136b5.svg?invert_in_darkmode" align=middle width=215.14490909999998pt height=24.65753399999998pt/>
 
-where <img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/e06ba62f2bfed5cf8a0fae61c45d4ac8.svg?invert_in_darkmode" align=middle width=11.92007189999999pt height=22.465723500000017pt/> is a pixel-value range, corresponding {0,...,255} for RGB images.
+where <img src="svgs/e06ba62f2bfed5cf8a0fae61c45d4ac8.svg?invert_in_darkmode" align=middle width=11.92007189999999pt height=22.465723500000017pt/> is a pixel-value range, corresponding {0,...,255} for RGB images.
 
 The first term represents consistency between the observation <img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/6c4adbc36120d62b98deef2a20d5d303.svg?invert_in_darkmode" align=middle width=8.55786029999999pt height=14.15524440000002pt/> and and the solution <img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/6dbb78540bd76da3f1625782d42d6d16.svg?invert_in_darkmode" align=middle width=9.41027339999999pt height=14.15524440000002pt/>, while the second
 term is the regulator which depicts an expected property for the solution. In the project, we will expect to study the impact different
@@ -22,7 +22,7 @@ regulation terms.
 
 The variational cost over an image by integrating through its spatial information <img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/9432d83304c1eb0dcb05f092d30a767f.svg?invert_in_darkmode" align=middle width=11.87217899999999pt height=22.465723500000017pt/>:
 
-<img src="https://rawgit.com/v18nguye/IDwPDEs/main/svgs/aa24f20cae0b4a011f08286e9cb0c719.svg?invert_in_darkmode" align=middle width=297.64800284999995pt height=26.76175259999998pt/>
+<img src="svgs/aa24f20cae0b4a011f08286e9cb0c719.svg?invert_in_darkmode" align=middle width=297.64800284999995pt height=26.76175259999998pt/>
 
 **Data Term**
 
