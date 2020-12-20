@@ -1,13 +1,44 @@
-# Partial Differential Equations (PDEs) for Image Denoising
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Image Denoising can be cast as an inverse problem to which we exploit PDEs to solve. There are several
-approaches dealing with Inverse Problem, resumed in the figure below.
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#theoretical-background">Theoretical Background</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+The project aims to exploit Partial Differential Equations (PDEs) to solve Inverse Problem in Image Denoising. There are other
+approaches dealing with Inverse Problem, resumed in Figure below.
 
 ![Alt](images/ci.png)
 
-__Author: Khoa NGUYEN__
-
-## Background
+### Theoretical Background
 In theory, we are looking for a solution <img src="svgs/9a816d3409cff0a970fc73cfd9ea3e75.svg?invert_in_darkmode" align=middle width=9.41027339999999pt height=22.831056599999986pt/> by minimizing the following cost:
 
 <img src="svgs/2101f41ba7f16ddcc28beb79496af43b.svg?invert_in_darkmode" align=middle width=165.32312444999997pt height=24.65753399999998pt/>
@@ -57,3 +88,42 @@ Recall the <img src="svgs/546dd4be76e9c449f1c24292d8388015.svg?invert_in_darkmod
 
 with different choices for function <img src="svgs/477e79c3356910b8ee9c9018d1997781.svg?invert_in_darkmode" align=middle width=19.89923759999999pt height=24.65753399999998pt/>: <img src="svgs/33b73b6041552a7e586557a60994802c.svg?invert_in_darkmode" align=middle width=185.28739349999998pt height=26.76175259999998pt/>, <img src="svgs/6461a38730e2d704ff15d39e298d4f90.svg?invert_in_darkmode" align=middle width=178.20977789999998pt height=37.07785289999999pt/>, <img src="svgs/d858960f01b8c92886cb25f5eb2e7b92.svg?invert_in_darkmode" align=middle width=164.92203585pt height=34.64863050000001pt/>.
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+### Installation
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Khoa NGUYEN - [@v18nguyen](https://twitter.com/v18nguyen) - khoa.v18nguyen@gmail.com
+
+Project Link: [https://github.com/v18nguye/IDwPDEs](https://github.com/v18nguye/IDwPDEs)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Cool README Template](https://github.com/othneildrew/Best-README-Template#built-with)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/v18nguye/IDwPDEs.svg?style=for-the-badge
+[contributors-url]: https://github.com/v18nguye/IDwPDEs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/v18nguye/IDwPDEs.svg?style=for-the-badge
+[forks-url]: https://github.com/v18nguye/IDwPDEs/network/members
+[stars-shield]: https://img.shields.io/github/stars/v18nguye/IDwPDEs.svg?style=for-the-badge
+[stars-url]: https://github.com/v18nguye/IDwPDEs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/v18nguye/IDwPDEs.svg?style=for-the-badge
+[issues-url]: https://github.com/v18nguye/IDwPDEs/issues
+[license-shield]: https://img.shields.io/github/license/v18nguye/IDwPDEs.svg?style=for-the-badge
+[license-url]: https://github.com/v18nguye/IDwPDEs/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/khoa-nguyen-139b9b15b/
